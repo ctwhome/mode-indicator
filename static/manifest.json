@@ -3,7 +3,7 @@
 	"name": "Anna's Mood",
 	"lang": "en",
 	"description": "Annas mode by Ctwhome.com",
-	"start_url": "mode-indicator.netlify.app",
+	"start_url": "https://mode-indicator.vercel.app",
 	"background_color": "#1f2435",
 	"theme_color": "#1f2435",
 	"dir": "ltr",
