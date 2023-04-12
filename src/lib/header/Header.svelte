@@ -80,9 +80,9 @@
 							</li>
 						{/each}
 					</ul>
-					<SocialIcons />
+					<!-- <SocialIcons /> -->
 					<DaisyuiThemeSwitcher />
-					<LoginButton />
+					<!-- <LoginButton /> -->
 				</div>
 			</div>
 		</div>

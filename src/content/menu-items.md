@@ -1,9 +1,9 @@
 ---
 menu:
 
-- name: Blog
-  url: /blog
+# - name: Blog
+  # url: /blog
 
-- name: About.md
+- name: About
   url: /about
 ---
