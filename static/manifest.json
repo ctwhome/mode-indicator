@@ -1,9 +1,9 @@
 {
-	"short_name": "Top Svelte",
-	"name": "Top Svelte",
+	"short_name": "Anna's Mood",
+	"name": "Anna's Mood",
 	"lang": "en",
-	"description": "Sveltekit template by Ctwhome.com",
-	"start_url": "top-sveltekit.netlify.app",
+	"description": "Annas mode by Ctwhome.com",
+	"start_url": "mode-indicator.netlify.app",
 	"background_color": "#1f2435",
 	"theme_color": "#1f2435",
 	"dir": "ltr",
