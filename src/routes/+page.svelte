@@ -1,7 +1,11 @@
 <script lang="ts">
+	import { page } from '$app/stores'
+
 	import { onMount } from "svelte";
 	import { db } from "../lib/firebase";
 	import { collection, getDocs,addDoc, deleteDoc, doc, Timestamp, orderBy, query } from "firebase/firestore";
+
+
 
 	const day = [
 		'Zondag',
@@ -21,6 +25,10 @@
 	let textarea
 	let modes = [];
 	onMount(async () => {
+
+		// Open the modal directly to add a new feeling
+		$page.url.searchParams.has('open') && (modal = true)
+
 		const querySnapshot = await getDocs(query(collection(db, "modes"),orderBy("date", "desc")));
 		querySnapshot.forEach((doc) => {
 			modes.push({id:doc.id,...doc.data()});
