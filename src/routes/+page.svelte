@@ -15,7 +15,7 @@
   } from 'firebase/firestore';
 
   const day = ['Zondag', 'Maandag', 'Dinsdag', 'Woensdag', 'Donderdag', 'Vrijdag', 'Zaterdag'];
-  let modal = true;
+  let modal = false;
 
   let comment = '';
   let stress = 'purple';
